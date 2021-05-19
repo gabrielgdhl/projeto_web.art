@@ -28,12 +28,12 @@ if(isset($_GET['editar']) && count($_POST) > 0){
     $contato->foto = $nomeArquivo;
 
     if(!isset($contato->nome, $contato->email, $contato->telefone)){
-        header('Location: home.php?erro=5');
+        header('Location: editar.php?erro=1');
         exit;
     }
             
     $contato->atualizarContato();
-    header('Location: home.php?success=5');
+    header('Location: home.php?success=2');
     exit;
 
         

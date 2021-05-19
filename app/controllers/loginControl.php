@@ -1,6 +1,6 @@
 <?php
 
-//Login::usuarioLogado();
+Login::usuarioLogado();
 
 if(count($_POST) > 1){
     

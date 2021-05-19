@@ -12,18 +12,22 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     
 
-    <title>Projeto webart</title>
+    <title>web.art</title>
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark text-white">
-      <h1>webart Projeto</h1>
+      <h1>web.art</h1>
       <div class="btn-nav">
         <a href="home.php" class='btn btn-perso'>HOME</a>
         <span>|</span>
         <a href="cadastro.php" class='btn btn-perso'>CADASTRAR</a>
+        <span>|</span>
+        <a href="sair.php" id="sair" class='btn btn-perso'>SAIR</a>
       </div>
     </nav>
+    <div id="alerta"></div>
     <div class="container d-flex justify-content-center">
+  
       
     
 

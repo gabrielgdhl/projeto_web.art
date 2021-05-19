@@ -16,7 +16,7 @@ if(count($_POST) > 0){
     }
 
     $usuario->salvarUsuario();
-    header("Location: home.php?success=1");
+    header("Location: index.php?success=1");
     exit;
 }
 

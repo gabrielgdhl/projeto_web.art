@@ -12,28 +12,32 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     
 
-    <title>Projeto webart</title>
+    <title>web.art</title>
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark text-white">
-      <h1>webart Projeto</h1>
+      <h1>web.art</h1>
     </nav>
+    <div id="alerta"></div>
     <div class="container d-flex justify-content-center">
 
         <main class="col-sm-8">
+          
             <div class="titulo">
                 <h1 class="align-self-center">LOGIN</h1>
             </div>
-            <form action="#" method="post">
+            <form action="" method="post">
                 <div class="form-goup mt-3">
                     <label for="email">E-MAIL</label>
                     <input class="form-control" type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                    <spam id="div-email-alert"></spam>
                 </div>
                 <div class="form-goup mt-3">
                     <label for="senha">SENHA</label>
                     <input class="form-control" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                    <spam id="div-senha-alert"></spam>
                 </div>
-                <button class="btn btn-primary mt-3">Entrar</button>
+                <button id="entrar" class="btn btn-primary mt-3">Entrar</button>
             </form>
             <div class="mt-3">
                     <a href="cadUsuario.php">Não possui conta?</a>

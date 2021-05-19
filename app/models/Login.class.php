@@ -75,4 +75,13 @@ class Login {
         }
     }
 
+    /**
+     * sair da sessaõ
+     */
+    public static function sairSessao(){
+        session_start();
+        session_destroy();
+        header("Location: index.php");
+    }
+
 }

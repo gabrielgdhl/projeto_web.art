@@ -21,13 +21,13 @@ if(isset($_FILES['foto']) && count($_POST) > 0){
 
             
             if(!isset($contato->nome , $contato->email, $contato->telefone, $contato->foto, $contato->id_usuario)){
-                header("Location: cadastro.php?erro=2");
+                header("Location: cadastro.php?erro=1");
                 exit;
             }
     
             
             $contato->inserirContato();
-            header("Location: home.php?success=2");
+            header("Location: home.php?success=1");
             exit;
         }
         
